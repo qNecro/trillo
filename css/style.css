@@ -80,6 +80,8 @@ body {
 
 .search {
   display: flex;
+  align-items: center;
+  justify-content: center;
   flex: 0 0 40%;
 }
 .search__input {
@@ -92,7 +94,7 @@ body {
   border-radius: 100px;
   width: 90%;
   transition: all 0.2s;
-  margin-right: -3.5rem;
+  margin-right: -3rem;
 }
 .search__input:focus {
   outline: none;
