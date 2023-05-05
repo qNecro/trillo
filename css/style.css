@@ -127,6 +127,7 @@ body {
 
 .user-nav {
   display: flex;
+  align-items: center;
 }
 .user-nav__icon {
   height: 2.25rem;
