@@ -10,6 +10,7 @@
 // Search
 
 .search{
+    display: flex;
     flex: 0 0 40%;
     &__input{
         font-family: inherit;
@@ -21,6 +22,7 @@
         border-radius: 100px;
         width: 90%;
         transition: all .2s;
+        margin-right: -3.5rem;
         &:focus{
             outline: none;
             width: 100%;
@@ -29,7 +31,14 @@
     }
 
     &__button{
-
+        border: none;
+        background-color: var(--color-grey-light-2);
+        &:focus{
+            outline:none;
+        }
+        &:active{
+            transform: translateY(2px);
+        }
     }
 
     &__icon{

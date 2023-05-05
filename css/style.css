@@ -79,6 +79,7 @@ body {
 }
 
 .search {
+  display: flex;
   flex: 0 0 40%;
 }
 .search__input {
@@ -91,11 +92,22 @@ body {
   border-radius: 100px;
   width: 90%;
   transition: all 0.2s;
+  margin-right: -3.5rem;
 }
 .search__input:focus {
   outline: none;
   width: 100%;
   background-color: var(--color-grey-light-3);
+}
+.search__button {
+  border: none;
+  background-color: var(--color-grey-light-2);
+}
+.search__button:focus {
+  outline: none;
+}
+.search__button:active {
+  transform: translateY(2px);
 }
 .search__icon {
   height: 2rem;
