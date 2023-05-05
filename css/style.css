@@ -56,6 +56,7 @@ body {
   border-bottom: var(--color-grey-light-2);
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .content {
@@ -81,6 +82,9 @@ body {
   width: 2rem;
 }
 
+.user-nav {
+  display: flex;
+}
 .user-nav__icon {
   height: 2.25rem;
   width: 2.25rem;
