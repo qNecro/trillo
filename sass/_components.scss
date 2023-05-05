@@ -80,7 +80,7 @@
         background-color: var(--color-grey-light-2);
     }
     &__icon-box{
-
+        position: relative;
     }
 
     &__icon{
@@ -96,6 +96,13 @@
         border-radius: 50%;
         background-color: var(--color-primary);
         color: var(--color-white);
+        position: absolute;
+        top:1.5rem;
+        right: 1.1rem;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
     &__user {
