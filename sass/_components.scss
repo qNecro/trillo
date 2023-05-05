@@ -65,8 +65,16 @@
 .user-nav{
     display: flex;
     align-items: center;
-    &__icon-box{
 
+    & > * {
+        padding: 0 2rem;
+        cursor: pointer;
+    }
+
+    & > *:hover {
+        background-color: var(--color-grey-light-2);
+    }
+    &__icon-box{
     }
 
     &__icon{
