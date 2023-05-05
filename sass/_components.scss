@@ -25,10 +25,16 @@
         width: 90%;
         transition: all .2s;
         margin-right: -3.25rem;
+
         &:focus{
             outline: none;
             width: 100%;
             background-color: var(--color-grey-light-3);
+        }
+
+        &::-webkit-input-placeholder{
+            font-weight: 100;
+            color: var(--color-grey-light-4);
         }
     }
     &__input:focus + &__button{
@@ -49,6 +55,7 @@
     &__icon{
         height: 2rem;
         width: 2rem;
+        fill:var(--color-grey-dark-3);
     }
 }
 
