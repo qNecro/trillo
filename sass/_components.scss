@@ -71,19 +71,22 @@
         padding: 0 2rem;
         cursor: pointer;
         height: 100%;
+
+        display: flex;
+        align-items: center;
     }
 
     & > *:hover {
         background-color: var(--color-grey-light-2);
     }
     &__icon-box{
-        display: flex;
-        align-items: center;
+
     }
 
     &__icon{
         height: 2.25rem;
         width: 2.25rem;
+        fill:var(--color-grey-dark-2);
     }
 
     &__notification{
@@ -91,8 +94,7 @@
     }
 
     &__user {
-        display: flex;
-        align-items: center;
+        
     }
 
     &__user-photo{
