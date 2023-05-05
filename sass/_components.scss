@@ -32,9 +32,10 @@
             background-color: var(--color-grey-light-3);
         }
 
-        &::-webkit-input-placeholder{
+        &::-webkit-input-placeholder,
+        &::-moz-input-placeholder{
             font-weight: 100;
-            color: var(--color-grey-light-4);
+            color: var(--color-primary);
         }
     }
     &__input:focus + &__button{

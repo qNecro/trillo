@@ -102,9 +102,9 @@ body {
   width: 100%;
   background-color: var(--color-grey-light-3);
 }
-.search__input::-webkit-input-placeholder {
+.search__input::-webkit-input-placeholder, .search__input::-moz-input-placeholder {
   font-weight: 100;
-  color: var(--color-grey-light-4);
+  color: var(--color-primary);
 }
 .search__input:focus + .search__button {
   background-color: var(--color-grey-light-3);
