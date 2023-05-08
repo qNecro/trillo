@@ -173,15 +173,22 @@ body {
 }
 
 .side-nav {
+  font-size: 1.4rem;
   list-style: none;
+  margin-top: 3.5rem;
 }
-.side-nav__link {
+.side-nav__link:link, .side-nav__link:visited {
   text-decoration: none;
+  color: var(--color-grey-light-1);
+  text-transform: uppercase;
+  display: inline-block;
+  padding: 1.5rem 3rem;
 }
 .side-nav__icon {
   width: 1.75rem;
   height: 1.75rem;
-  fill: var(--color-white);
+  fill: var(--color-grey-light-1);
+  margin-right: 2rem;
 }
 
 .legal {
