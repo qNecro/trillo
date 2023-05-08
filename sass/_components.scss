@@ -138,7 +138,8 @@
         transform: scaleY(0);
         transition: transform .2s, width .4s cubic-bezier(1,0,0,1) .2s;
     }
-    &__item:hover::before{
+    &__item:hover::before,
+    &__item--active::before{
         transform: scaleY(1);
         width: 100%;
     }
@@ -150,6 +151,8 @@
         display: flex;
         align-items: center;
         padding: 1.5rem 3rem;
+        position: relative;
+        z-index: 2;
     }
 
     &__icon{
