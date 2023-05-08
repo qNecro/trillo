@@ -116,18 +116,20 @@
 // Side nav
 
 .side-nav{
-    
+    list-style: none;
     &__item{
 
     }
 
     &__link{
+        text-decoration: none;
 
     }
 
     &__icon{
         width: 1.75rem;
         height: 1.75rem;
+        fill: var(--color-white);
     }
 }
 
