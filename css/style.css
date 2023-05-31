@@ -267,11 +267,16 @@ body {
   color: white;
   margin-left: 3rem;
   padding: 0 2.25rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   align-self: stretch;
 }
 .overview__rating-average {
   font-size: 2.25rem;
   font-weight: 300;
+  margin-bottom: -3px;
 }
 .overview__rating-count {
   font-size: 0.8rem;
