@@ -88,7 +88,8 @@ body {
 
 .description {
   background-color: #fff;
-  box-shadow: var(--shadow-dark-big);
+  box-shadow: var(--shadow-dark-small);
+  padding: 3rem;
   flex: 0 0 60%;
   margin-right: 4.5rem;
 }
