@@ -426,10 +426,12 @@ body {
 .review::before {
   content: "“";
   position: absolute;
-  top: -2rem;
+  top: -2.75rem;
   left: -1rem;
+  line-height: 1;
   font-size: 20rem;
   color: var(--color-grey-light-2);
+  font-family: sans-serif;
 }
 
 /*# sourceMappingURL=style.css.map */
