@@ -326,6 +326,10 @@
 
     display: flex;
     flex-wrap: wrap;
+
+    &__item{
+        flex: 0 0 50%;
+    }
 }
 
 
