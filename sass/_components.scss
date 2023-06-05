@@ -304,3 +304,30 @@
         box-shadow: none;
     }
 }
+
+
+
+////////////////////////////////////
+// Paragraph
+.paragraph:not(:last-of-type){
+    margin-bottom: 2rem;
+}
+
+
+
+////////////////////////////////////
+// List
+.list {
+    list-style: none;
+    margin: 3rem 0;
+    padding: 3rem 0;
+    border-bottom: var(--line);
+    border-top: var(--line);
+
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+////////////////////////////////////
+// Recommend
