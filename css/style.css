@@ -411,5 +411,8 @@ body {
   text-transform: uppercase;
   font-weight: 600;
 }
+.review__user-date {
+  color: var(--color-grey-dark-1);
+}
 
 /*# sourceMappingURL=style.css.map */
