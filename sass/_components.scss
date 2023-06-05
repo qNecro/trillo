@@ -402,18 +402,23 @@
         padding-left: 1.5rem;
         margin-right: auto;
         font-size: 1rem;
+        line-height: 2.1rem;
+
     }
 
     &__user-name{
         text-transform: uppercase;
-        font-weight: 600;
+        font-weight: 700;
+        font-size: 1.1rem;
     }
     &__user-date{
-        color:var(--color-grey-dark-1);
+        color:var(--color-grey-dark-3);
     }
 
 
     &__rating{
-
+        color: var(--color-primary);
+        font-size: 2.2rem;
+        font-weight: 200;
     }
 }

@@ -403,16 +403,23 @@ body {
   border-radius: 50%;
 }
 .review__user-box {
-  padding-left: 1rem;
+  padding-left: 1.5rem;
   margin-right: auto;
   font-size: 1rem;
+  line-height: 2.1rem;
 }
 .review__user-name {
   text-transform: uppercase;
-  font-weight: 600;
+  font-weight: 700;
+  font-size: 1.1rem;
 }
 .review__user-date {
-  color: var(--color-grey-dark-1);
+  color: var(--color-grey-dark-3);
+}
+.review__rating {
+  color: var(--color-primary);
+  font-size: 2.2rem;
+  font-weight: 200;
 }
 
 /*# sourceMappingURL=style.css.map */
