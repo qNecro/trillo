@@ -418,6 +418,13 @@
     &__rating{
         color: var(--color-primary);
         font-size: 2.2rem;
-        font-weight: 200;
+        font-weight: 300;
+    }
+
+    &::before{
+        content:"\201C";
+        position: absolute;
+        top:0;
+        left: 0
     }
 }
