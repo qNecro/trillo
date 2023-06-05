@@ -404,6 +404,10 @@ body {
 .review__user-box {
   padding-left: 1rem;
   margin-right: auto;
+  font-size: 1.4rem;
+}
+.review__user-name {
+  text-transform: uppercase;
 }
 
 /*# sourceMappingURL=style.css.map */
