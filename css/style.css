@@ -395,6 +395,7 @@ body {
 }
 .review__user {
   display: flex;
+  align-items: center;
 }
 .review__photo {
   height: 4.5rem;
@@ -404,10 +405,11 @@ body {
 .review__user-box {
   padding-left: 1rem;
   margin-right: auto;
-  font-size: 1.4rem;
+  font-size: 1rem;
 }
 .review__user-name {
   text-transform: uppercase;
+  font-weight: 600;
 }
 
 /*# sourceMappingURL=style.css.map */
