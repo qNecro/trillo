@@ -352,3 +352,21 @@
 
 ////////////////////////////////////
 // Recommend
+.recommend{
+    font-size: 1.3rem;
+    color:var(--color-grey-dark-3);
+    display: flex;
+
+    &__count{
+    }
+
+    &__friends{
+
+    }
+
+    &__photo{
+        height: 4rem;
+        width: 4rem;
+        border-radius: 50%;
+    }
+}
