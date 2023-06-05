@@ -385,11 +385,12 @@
     margin-bottom: 3.5rem;
 
     &__text{
-
+        margin-bottom: 2rem;
     }
 
     &__user{
         display: flex;
+        
     }
 
     &__photo{
@@ -398,6 +399,7 @@
         border-radius: 50%;
     }
     &__user-box{
+        padding-left: 1rem;
         margin-right: auto;
     }
 

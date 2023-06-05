@@ -390,6 +390,9 @@ body {
   padding: 3rem;
   margin-bottom: 3.5rem;
 }
+.review__text {
+  margin-bottom: 2rem;
+}
 .review__user {
   display: flex;
 }
@@ -399,6 +402,7 @@ body {
   border-radius: 50%;
 }
 .review__user-box {
+  padding-left: 1rem;
   margin-right: auto;
 }
 
