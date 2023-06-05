@@ -389,7 +389,7 @@
     }
 
     &__user{
-
+        display: flex;
     }
 
     &__photo{
@@ -398,7 +398,7 @@
         border-radius: 50%;
     }
     &__user-box{
-
+        margin-right: auto;
     }
 
     &__user-name{

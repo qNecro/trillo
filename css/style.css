@@ -390,10 +390,16 @@ body {
   padding: 3rem;
   margin-bottom: 3.5rem;
 }
+.review__user {
+  display: flex;
+}
 .review__photo {
   height: 4.5rem;
   width: 4.5rem;
   border-radius: 50%;
+}
+.review__user-box {
+  margin-right: auto;
 }
 
 /*# sourceMappingURL=style.css.map */
