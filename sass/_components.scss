@@ -362,10 +362,6 @@
         margin-right: auto;
     }
 
-    &__friends{
-
-    }
-
     &__photo{
         box-sizing: content-box;
         height: 4rem;
@@ -376,5 +372,42 @@
         &:not(:last-child){
             margin-right: -1.5rem;
         }
+    }
+}
+
+////////////////////////////////////
+// Reviews
+
+.review{
+    background-color: #fff;
+    box-shadow: var(--shadow-dark-small);
+    padding: 3rem;
+    margin-bottom: 3.5rem;
+    
+    &__text{
+
+    }
+
+    &__user{
+
+    }
+
+    &__photo{
+
+    }
+    &__user-box{
+
+    }
+
+    &__user-name{
+
+    }
+    &__user-date{
+
+    }
+
+
+    &__rating{
+
     }
 }

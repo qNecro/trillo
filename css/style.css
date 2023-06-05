@@ -384,4 +384,11 @@ body {
   margin-right: -1.5rem;
 }
 
+.review {
+  background-color: #fff;
+  box-shadow: var(--shadow-dark-small);
+  padding: 3rem;
+  margin-bottom: 3.5rem;
+}
+
 /*# sourceMappingURL=style.css.map */
