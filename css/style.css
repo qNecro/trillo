@@ -406,12 +406,12 @@ body {
   padding-left: 1.5rem;
   margin-right: auto;
   font-size: 1rem;
-  line-height: 2.1rem;
 }
 .review__user-name {
   text-transform: uppercase;
-  font-weight: 700;
+  font-weight: 600;
   font-size: 1.1rem;
+  margin-bottom: 0.4rem;
 }
 .review__user-date {
   color: var(--color-grey-dark-3);
