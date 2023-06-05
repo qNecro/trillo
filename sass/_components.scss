@@ -379,6 +379,7 @@
 // Reviews
 
 .review{
+    position: relative;
     background-color: #fff;
     box-shadow: var(--shadow-dark-small);
     padding: 3rem;
@@ -424,7 +425,9 @@
     &::before{
         content:"\201C";
         position: absolute;
-        top:0;
-        left: 0
+        top:-2rem;
+        left: -1rem;
+        font-size: 20rem;
+        color:var(--color-grey-light-2);
     }
 }
