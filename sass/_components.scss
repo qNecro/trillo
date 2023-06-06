@@ -465,6 +465,7 @@
 }
 
 .btn{
+    position: relative;
     font-size: 1.5rem;
     font-weight: 300;
     text-transform: uppercase;
@@ -472,17 +473,31 @@
     border:none;
     background-image: linear-gradient(to right, var(--color-primary-light), var(--color-primary-dark));
     color: #fff;
+    overflow: hidden;
+
+    & > * {
+        display: inline-block;
+        width: 100%;
+        height: 100%;
+        transition: all .2s;
+    }
 
     &__visible{
-        display: inline-block;
         padding: 2rem 7.5rem;
     }
 
     &__invisible{
-        display: inline-block;
         position: absolute;
-        padding: 2rem 7.5rem;
+        padding: 2rem 0;
         top: -100%;
         left: 0;
+    }
+
+    &:hover &__visible{
+        transform: translateY(-100%);
+    }
+
+    &:hover &__invisible{
+        top:0;
     }
 }
