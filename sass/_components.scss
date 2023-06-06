@@ -479,6 +479,10 @@
     }
 
     &__invisible{
-
+        display: inline-block;
+        position: absolute;
+        padding: 2rem 7.5rem;
+        top: -100%;
+        left: 0;
     }
 }
