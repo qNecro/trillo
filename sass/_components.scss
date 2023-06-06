@@ -122,6 +122,11 @@
     list-style: none;
     margin-top: 3.5rem;
 
+    @media only screen and (max-width:$bp-medium){
+        display: flex;
+        margin: 0;
+    }
+
     &__item{
         position: relative;
 
@@ -180,6 +185,10 @@
     color:var(--color-grey-light-4);
     text-align: center;
     padding:2.5rem;
+
+    @media only screen and (max-width:$bp-medium){
+        display: none;
+    }
 }
 
 
