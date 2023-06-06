@@ -127,6 +127,12 @@ body {
     margin-right: 3rem;
   }
 }
+@media only screen and (max-width: 37.5em) {
+  .description {
+    margin-right: 0;
+    margin-bottom: 3rem;
+  }
+}
 
 .user-reviews {
   flex: 1;
@@ -254,6 +260,11 @@ body {
 @media only screen and (max-width: 56.25em) {
   .side-nav__item {
     flex: 1;
+  }
+}
+@media only screen and (max-width: 37.5em) {
+  .side-nav__item {
+    flex-direction: column;
   }
 }
 .side-nav__item::before {
