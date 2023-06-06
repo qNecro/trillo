@@ -456,10 +456,28 @@
     text-align: center;
 
     &__book-now{
-        font-size: 1.5rem;
+        font-size: 2rem;
         font-weight: 300;
         text-transform: uppercase;
         margin-bottom: 2.5rem;
+
+    }
+}
+
+.btn{
+    font-size: 1.5rem;
+    font-weight: 300;
+    text-transform: uppercase;
+    border-radius: 100px;
+    border:none;
+    background-color: linear-gradient(to right, var(--color-primary-light), var(--color-primary-dark));
+    color: #fff;
+
+    &__visible{
+
+    }
+
+    &__invisible{
 
     }
 }
