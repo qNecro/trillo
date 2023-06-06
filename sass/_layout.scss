@@ -5,6 +5,10 @@
     box-shadow: var(--shadow-dark-medium);
 
     min-height: 50rem;
+
+    @media only screen and(max-width:1200px){
+        
+    }
 }
 
 .header{
@@ -57,3 +61,4 @@
     flex-direction: column;
     align-items:center;
 }
+
