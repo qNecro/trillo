@@ -222,7 +222,6 @@ body {
   .side-nav {
     display: flex;
     margin: 0;
-    flex: 1;
   }
 }
 .side-nav__item {
@@ -234,6 +233,11 @@ body {
 @media only screen and (max-width: 56.25em) {
   .side-nav__item:not(:last-child) {
     margin: 0;
+  }
+}
+@media only screen and (max-width: 56.25em) {
+  .side-nav__item {
+    flex: 1;
   }
 }
 .side-nav__item::before {

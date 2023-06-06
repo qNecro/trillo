@@ -125,7 +125,6 @@
     @media only screen and (max-width:$bp-medium){
         display: flex;
         margin: 0;
-        flex: 1;
     }
 
     &__item{
@@ -137,6 +136,9 @@
             @media only screen and (max-width:$bp-medium){
                 margin:0;
             }
+        }
+        @media only screen and (max-width:$bp-medium){
+            flex: 1;
         }
     }
     &__item::before{
