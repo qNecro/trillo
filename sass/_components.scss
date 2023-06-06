@@ -494,7 +494,7 @@
     }
 
     &:hover &__visible{
-        transform: translateY(-100%);
+        transform: translateY(100%);
     }
 
     &:hover &__invisible{
