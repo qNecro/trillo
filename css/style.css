@@ -262,11 +262,6 @@ body {
     flex: 1;
   }
 }
-@media only screen and (max-width: 37.5em) {
-  .side-nav__item {
-    flex-direction: column;
-  }
-}
 .side-nav__item::before {
   content: "";
   position: absolute;
@@ -299,6 +294,12 @@ body {
   .side-nav__link:link, .side-nav__link:visited {
     justify-content: center;
     padding: 2rem;
+  }
+}
+@media only screen and (max-width: 37.5em) {
+  .side-nav__link:link, .side-nav__link:visited {
+    flex-direction: column;
+    padding: 1rem;
   }
 }
 .side-nav__icon {

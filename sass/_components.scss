@@ -140,10 +140,6 @@
         @media only screen and (max-width:$bp-medium){
             flex: 1;
         }
-
-        @media only screen and (max-width:$bp-small){
-            flex-direction: column;
-        }
     }
     &__item::before{
         content: "";
@@ -182,6 +178,11 @@
         @media only screen and (max-width:$bp-medium){
             justify-content: center;
             padding:2rem;
+        }
+
+        @media only screen and (max-width:$bp-small){
+            flex-direction: column;
+            padding: 1rem;
         }
     }
 
