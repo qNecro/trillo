@@ -474,7 +474,8 @@
     color: #fff;
 
     &__visible{
-
+        display: inline-block;
+        padding: 2rem 7.5rem;
     }
 
     &__invisible{
